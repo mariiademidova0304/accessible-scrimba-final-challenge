@@ -1,11 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html>
+    <head>
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+        
+        <!-- Fonts & Icons -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body class="contact-page">
+        <main id="main">
+            <!-- Form section -->
+            <div class="contact-form-section">
+                <form>
+                    <h1 class="contact-form-heading">Reach <span>Out</span></h1>
+                    <div class="contact-form-intro">Curious about something? Complete these fields and "get in touch", as you humans say. 🤙</div>
+                    <label for="fullName">Full Name</label>
+                    <input class="contact-input" id="fullName" type="text" placeholder="John Doe" />
+                    <label for="email">Email</label>
+                    <input class="contact-input" id="email" type="text" placeholder="john.doe@gmail.com" />
+                    <label for="message">Message</label>
+                    <textarea class="contact-textarea" id="message" rows="4" cols="50" placeholder="Your message..."></textarea>
+                    <button class="contact-submit-button" type="button" onclick="submitForm()">Send Message</button>
+                </form>
+                <img class="contact-image" alt="human hand and robotic hand reaching for each other" src="images/connect.png" />
+            </div>
+        </main>
+    </body>
 </html>
