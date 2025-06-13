@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Figtree';
+    box-sizing: border-box;
+    background-color: hsl(47, 88%, 63%);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    margin: auto;
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 1);
+    gap: 24px;
+}
+
+.img-container{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#main-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.white {
+    background-color: white;
+}
+
+.attribution {
+    font-size: 11px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+h1,
+p {
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: hsl(0, 0%, 7%);
+}
+
+.section {
+    width: fit-content;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 0.87rem;
+    font-weight: 800;
+}
+
+.text-date {
+    width: fit-content;
+    font-size: 0.87rem;
+    font-weight: 500;
+}
+
+.headline{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.paragraph {
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+}
+
+.author-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+#avatar-img {
+    height: 32px;
+    width: auto;
+    background-color: white;
+}
+
+.author {
+    font-size: 0.87rem;
+    font-weight: 800;
+}
+
+@media (max-width:376px) {
+.main-container{
+    width: 327px;
+}
+.section,
+.text-date{
+    font-size: 0.75rem;
+}
+.paragraph{
+    font-size: 0.87rem;
+}
+.headline{
+    font-size: 1.25rem;
+}
+}
+
+.main-container:hover{
+    box-shadow: 16px 16px 0 rgba(0, 0, 0, 1);
+    .headline{
+        color: hsl(47, 88%, 63%);
+    }
+}
+
+.headline:hover{
+    cursor: pointer;
+}

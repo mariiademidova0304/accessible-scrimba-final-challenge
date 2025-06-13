@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s01hbpk",
+  "description": "https://scrimba.com/learn-accessible-web-design-c031/~0m",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
