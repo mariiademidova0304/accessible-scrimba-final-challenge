@@ -1,0 +1,4 @@
+# Reflection
+1. I used default parameters to add an optional value. Used && and || to switch between conditions. I've also used a separate .js file for trials.
+2. The challenges of conditional logic mostly included parameters that were missing, there's a number of cases where things could go wrong, I've used the simple `undefined`, but i know there's also null or an empty string - I haven't included those as we haven't talked about those yet. But errors have always been a comlicated issue for me.
+3. I think refactoring shortens the code. Not sure if that improves readability, but it definitely scraps repetition.
